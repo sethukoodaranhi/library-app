@@ -1,0 +1,28 @@
+.form-body{
+   padding-top: 100px;
+  
+
+}
+.form{
+    border-bottom:1em solid rgb(87, 80, 80);
+    padding-bottom: 2em;
+    border-bottom-left-radius:4em;
+    width:50%
+}
+.form input{
+    margin-bottom: 8px;
+}
+.txt{
+    font-weight: bold;
+    font-size:larger
+}
+.info{
+    width: 35em;
+    height: 2em;
+}
+
+#btnsignup{
+    background-color: rgb(250, 189, 109);
+    margin-left: 21em;
+    margin-top: 5px;
+}

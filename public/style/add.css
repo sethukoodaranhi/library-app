@@ -1,0 +1,13 @@
+.addform .form-control{
+    display: block;
+    width:100%;
+    height:36px;
+    border-width:0 0 2px 0;
+    border-color: burlywood;
+    font-size: 18px;
+    line-height:10px;
+    font-weight: 400;
+}
+.addform .form-control:focus{
+    outline: none;
+}

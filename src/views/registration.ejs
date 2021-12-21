@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style/regstyle.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body bgcolor="burlywood">
+    <center>
+        <section class="form">
+            <table>
+                 <div class="form-body">
+                    <form action="/add" method="post" id="register">
+                        <tbody>
+                            <h1>REGISTRATION FORM</h1>
+                            <tr>
+                                <td><label class="txt">Name</label></td>
+                                <td><input type="text" name="name" id="uname" class="info" required><br>
+                                <label id="uname_err"></label></td> 
+                            </tr>
+                            <tr>
+                                <td><label  class="txt">Address</label></td>
+                                <td><textarea cols="3" rows="3" name="address" id="adrss" class="info"  required></textarea><br>
+                                    <label id="adrss_err"></label></td> 
+                            </tr>
+                            <tr>
+                                <td><label  class="txt">Phone no</label></td>
+                                <td><input type="text" name="phoneno" id="phno" class="info"><br>
+                                    <label id="phone_err"></label></td> 
+                            </tr>
+                            <tr>
+                                <td><label  class="txt" >Email</label></td>
+                                <td><input type="text" name="mail" id="email" class="info"><br>
+                                    <label id="email_err"></label></td> 
+                            </tr>
+                            <tr>
+                                <td><label  class="txt">Username</label></td>
+                                <td><input type="text" name="uname" id="usrname" class="info"><br>
+                                    <label id="usrname_err"></label></td> 
+                            </tr>
+                            <tr>
+                                <td><label  class="txt">Password</label></td>
+                                <td><input type="password" name="password" id="pswd" class="info"><br>
+                                    <label id="pswd_err"></label></td> 
+                            </tr>
+                            <tr>
+                                <td colspan="2"><button type="submit" id="btnsignup">SIGN UP</button></td>
+                            </tr>
+                            
+                        </tbody>
+                    </form>
+                </div>
+            </table>
+        </section>
+    </center>
+    <script src="js/validation.js">
+        
+    </script>
+</body>
+</html>
